@@ -1,0 +1,29 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#search-input {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #0f3460;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: #e94560;
+    color: #fff;
+}
+
+.photo-card {
+    background-color: #fff;
+}
+
+.photo-info {
+    color: #333;
+}

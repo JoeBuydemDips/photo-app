@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk Photo Search</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/dark-mode.css') }}" id="theme-style">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/light-mode.css') }}" disabled>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', path='/images/favicon.ico') }}">
+</head>
+<body>
+    <div class="cyberpunk-bg"></div>
+    <div class="container">
+        <header>
+            <h1>Cyberpunk Photo Search</h1>
+            <button id="theme-toggle">Toggle Theme</button>
+        </header>
+        <main>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Enter keywords...">
+                <button type="submit">Search</button>
+            </form>
+            <div id="results-grid"></div>
+            <div id="pagination"></div>
+        </main>
+        <footer>
+            <p>Powered by Unsplash API</p>
+        </footer>
+    </div>
+    <script src="{{ url_for('static', path='/js/script.js') }}"></script>
+</body>
+</html>
