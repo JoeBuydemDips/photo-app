@@ -67,4 +67,6 @@ coverage.xml
 
 # Environments
 .env
+
+todos/
  

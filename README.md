@@ -1,5 +1,8 @@
 # Cyberpunk Photo Search
 
+![Run Tests](https://github.com/yourusername/cyberpunk-photo-search/workflows/Run%20Tests/badge.svg)
+[![codecov](https://codecov.io/gh/yourusername/cyberpunk-photo-search/branch/main/graph/badge.svg)](https://codecov.io/gh/yourusername/cyberpunk-photo-search)
+
 Photo Search is a web application with "Cyber Punk Theme" that allows users to search for photos using the Unsplash API.
 
 ## Features
@@ -36,7 +39,7 @@ Photo Search is a web application with "Cyber Punk Theme" that allows users to s
 3. Install the required packages:
 
    ```
-   pip install fastapi uvicorn httpx python-dotenv
+   pip install -r requirements.txt
    ```
 
 4. Create a `.env` file in the root directory and add your Unsplash API key:
@@ -61,6 +64,16 @@ Photo Search is a web application with "Cyber Punk Theme" that allows users to s
 5. Click on a photo to view an expanded preview
 
 6. Toggle between dark and light modes using the "Toggle Theme" button
+
+## Running Tests
+
+To run the tests, use the following command:
+
+```
+pytest --cov=app tests/
+```
+
+This will run all the tests and provide a coverage report.
 
 ## Contributing
 
