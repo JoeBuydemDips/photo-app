@@ -18,7 +18,7 @@ jobs:
           pip install pytest pytest-asyncio httpx pytest-cov
       - name: Run tests
         run: |
-          pytest --cov=app tests/
+          pytest --cov=. tests/test_main.py
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
