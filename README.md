@@ -1,4 +1,4 @@
-# Cyberpunk Photo Search
+# Photo Search
 
 ![Run Tests](https://github.com/yourusername/cyberpunk-photo-search/workflows/Run%20Tests/badge.svg)
 [![codecov](https://codecov.io/gh/yourusername/cyberpunk-photo-search/branch/main/graph/badge.svg)](https://codecov.io/gh/yourusername/cyberpunk-photo-search)
@@ -25,8 +25,8 @@ Photo Search is a web application with "Cyber Punk Theme" that allows users to s
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/cyberpunk-photo-search.git
-   cd cyberpunk-photo-search
+   git clone https://github.com/yourusername/photo-app.git
+   cd photo-app
    ```
 
 2. Create a virtual environment and activate it:
